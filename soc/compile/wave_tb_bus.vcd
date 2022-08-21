@@ -1,0 +1,221 @@
+$date
+	Tue Apr 05 21:40:26 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_bus $end
+$var wire 1 ! mem_write_enable $end
+$var wire 32 " mem_write_data [31:0] $end
+$var wire 32 # mem_write_address [31:0] $end
+$var wire 32 $ mem_read_address [31:0] $end
+$var wire 32 % core_read_data_in [31:0] $end
+$var wire 4 & bus_authority [3:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( core_bus_req $end
+$var reg 32 ) core_read_address_out [31:0] $end
+$var reg 1 * core_read_enable_out $end
+$var reg 32 + core_write_address_out [31:0] $end
+$var reg 32 , core_write_data_out [31:0] $end
+$var reg 1 - core_write_enable_out $end
+$var reg 32 . mem_read_data [31:0] $end
+$var reg 1 / mem_read_enable $end
+$var reg 1 0 reset $end
+$scope module bus_inst0 $end
+$var wire 1 ' clk $end
+$var wire 1 ( m0_bus_req $end
+$var wire 32 1 m0_read_address_out [31:0] $end
+$var wire 32 2 m0_read_data_out [31:0] $end
+$var wire 1 * m0_read_enable_out $end
+$var wire 32 3 m0_write_address_out [31:0] $end
+$var wire 32 4 m0_write_data_out [31:0] $end
+$var wire 1 - m0_write_enable_out $end
+$var wire 1 5 m1_bus_req $end
+$var wire 32 6 m1_read_address_out [31:0] $end
+$var wire 32 7 m1_read_data_out [31:0] $end
+$var wire 1 8 m1_read_enable_out $end
+$var wire 32 9 m1_write_address_out [31:0] $end
+$var wire 32 : m1_write_data_out [31:0] $end
+$var wire 1 ; m1_write_enable_out $end
+$var wire 1 < m2_bus_req $end
+$var wire 32 = m2_read_address_out [31:0] $end
+$var wire 32 > m2_read_data_out [31:0] $end
+$var wire 1 ? m2_read_enable_out $end
+$var wire 32 @ m2_write_address_out [31:0] $end
+$var wire 32 A m2_write_data_out [31:0] $end
+$var wire 1 B m2_write_enable_out $end
+$var wire 1 C m3_bus_req $end
+$var wire 32 D m3_read_address_out [31:0] $end
+$var wire 32 E m3_read_data_out [31:0] $end
+$var wire 1 F m3_read_enable_out $end
+$var wire 32 G m3_write_address_out [31:0] $end
+$var wire 32 H m3_write_data_out [31:0] $end
+$var wire 1 I m3_write_enable_out $end
+$var wire 1 0 reset $end
+$var wire 32 J s0_read_data_out [31:0] $end
+$var wire 32 K s1_read_data_out [31:0] $end
+$var wire 32 L s2_read_data_out [31:0] $end
+$var reg 4 M bus_authority [3:0] $end
+$var reg 32 N m0_read_address_in [31:0] $end
+$var reg 32 O m0_read_data_in [31:0] $end
+$var reg 1 P m0_read_enable_in $end
+$var reg 32 Q m0_write_address_in [31:0] $end
+$var reg 32 R m0_write_data_in [31:0] $end
+$var reg 1 S m0_write_enable_in $end
+$var reg 32 T m1_read_address_in [31:0] $end
+$var reg 32 U m1_read_data_in [31:0] $end
+$var reg 1 V m1_read_enable_in $end
+$var reg 32 W m1_write_address_in [31:0] $end
+$var reg 32 X m1_write_data_in [31:0] $end
+$var reg 1 Y m1_write_enable_in $end
+$var reg 32 Z m2_read_address_in [31:0] $end
+$var reg 32 [ m2_read_data_in [31:0] $end
+$var reg 1 \ m2_read_enable_in $end
+$var reg 32 ] m2_write_address_in [31:0] $end
+$var reg 32 ^ m2_write_data_in [31:0] $end
+$var reg 1 _ m2_write_enable_in $end
+$var reg 32 ` m3_read_address_in [31:0] $end
+$var reg 32 a m3_read_data_in [31:0] $end
+$var reg 1 b m3_read_enable_in $end
+$var reg 32 c m3_write_address_in [31:0] $end
+$var reg 32 d m3_write_data_in [31:0] $end
+$var reg 1 e m3_write_enable_in $end
+$var reg 32 f s0_read_address_in [31:0] $end
+$var reg 1 g s0_read_enable_in $end
+$var reg 32 h s0_write_address_in [31:0] $end
+$var reg 32 i s0_write_data_in [31:0] $end
+$var reg 1 ! s0_write_enable_in $end
+$var reg 32 j s1_read_address_in [31:0] $end
+$var reg 1 k s1_read_enable_in $end
+$var reg 32 l s1_write_address_in [31:0] $end
+$var reg 32 m s1_write_data_in [31:0] $end
+$var reg 1 n s1_write_enable_in $end
+$var reg 32 o s2_read_address_in [31:0] $end
+$var reg 1 p s2_read_enable_in $end
+$var reg 32 q s2_write_address_in [31:0] $end
+$var reg 32 r s2_write_data_in [31:0] $end
+$var reg 1 s s2_write_enable_in $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+xs
+bx r
+bx q
+xp
+bx o
+xn
+bx m
+bx l
+xk
+bx j
+bx i
+bx h
+xg
+bx f
+xe
+bx d
+bx c
+xb
+bx a
+bx `
+x_
+bx ^
+bx ]
+x\
+bx [
+bx Z
+xY
+bx X
+bx W
+xV
+bx U
+bx T
+xS
+bx R
+bx Q
+xP
+bx O
+bx N
+bx M
+bz L
+bz K
+bx J
+zI
+bz H
+bz G
+zF
+bz E
+bz D
+zC
+zB
+bz A
+bz @
+z?
+bz >
+bz =
+z<
+z;
+bz :
+bz 9
+z8
+bz 7
+bz 6
+z5
+bx 4
+bx 3
+bz 2
+bx 1
+10
+0/
+bx .
+0-
+bx ,
+bx +
+0*
+bx )
+0(
+0'
+bx &
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#10000
+b0 &
+b0 M
+1'
+#20000
+0'
+1(
+00
+#30000
+1'
+#40000
+1!
+b1 "
+b1 i
+b10000000000000000000000010000001 #
+b10000000000000000000000010000001 h
+0g
+b10000000000000000000000010000000 $
+b10000000000000000000000010000000 f
+0'
+1-
+b1 ,
+b1 4
+b10000000000000000000000010000001 +
+b10000000000000000000000010000001 3
+b10000000000000000000000010000000 )
+b10000000000000000000000010000000 1
+0(
+#50000
+1'
+#60000
+0'
